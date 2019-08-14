@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MateSquares - A New Perspective.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="spacing.css">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-danger is-primary-gradient is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-white" href="">
+                    <i class="fa fa-2x fa-square"></i><b class="ml-2 is-size-5">MateSquares</b>
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="field">
+                        <div class="control ml-4 my-2 has-icons-right">
+                            <input class="input is-danger is-rounded search" type="email" placeholder="Search">
+                            <span class="icon is-right">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item on-hover-underline bg-light">
+                        <img src="logo.jpg" alt="Image" class="is-circle mr-2">
+                        <span>John Smith</span>
+                    </a>
+                    <a class="navbar-item on-hover-underline">Home</a>
+                    <a class="navbar-item on-hover-underline" href="find.html">Find Friends</a>
+                    <a class="navbar-item on-hover-underline" href="messages.html">Messages</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                        </a>
+                        <div class="navbar-dropdown is-right">
+                            <a class="navbar-item">
+                                Sign up
+                            </a>
+                            <a class="navbar-item">
+                                log in
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Log out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="columns is-gapless">
+            <div class="column">
+                <div class="has-background-white is-radius p-2 message-container">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            Friends
+                        </p>
+                        <ul class="menu-list">
+                            <li><a>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img class="is-circle" src="logo.jpg" alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-6 pt-1">John Smith</p>
+                                            <p class="subtitle is-6 has-text-danger">@johnsmith</p>
+                                        </div>
+                                        <div class="media-right center-online">
+                                            <i class="fa fa-toggle-on has-text-success"></i>
+                                        </div>
+                                    </div>
+                                </a></li>
+                            <li><a>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <img class="is-circle" src="logo.jpg" alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-6 pt-1">John Smith</p>
+                                            <p class="subtitle is-6 has-text-danger">@johnsmith</p>
+                                        </div>
+                                        <div class="media-right center-online">
+                                            <i class="fa fa-toggle-on has-text-grey-lighter"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+            <div class="column is-6 ml-3">
+                <div class="has-background-white is-radius p-2 mb-2 messages-container">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-circle" src="logo.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-6 pt-1">John Smith</p>
+                            <p class="subtitle is-6 has-text-danger">Online</p>
+                        </div>
+                    </div>
+                    <hr class="m-0 my-2">
+                    <div class="chat-container">
+                        <div class="media-container">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="logo.jpg" alt="Image" class="is-rounded">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <div>
+                                            <strong>John Smith</strong> <small class="has-text-danger">@johnsmith</small> <small>31m</small>
+                                        </div>
+                                        <div class="has-background-primary p-3 is-radius mt-2 mr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, tempora. Aut ducimus molestias eum, architecto obcaecati voluptates velit fugiat. Ducimus expedita laborum facere voluptate, nesciunt vitae impedit eum unde dignissimos.</div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="media">
+                                <div class="media-content has-text-right">
+                                    <div class="content">
+                                        <div>
+                                            <strong>John Smith</strong> <small class="has-text-danger">@johnsmith</small> <small>31m</small>
+                                        </div>
+                                        <div class="has-background-grey-lighter is-radius p-3 mt-2 ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, tempora. Aut ducimus molestias eum, architecto obcaecati voluptates velit fugiat. Ducimus expedita laborum facere voluptate, nesciunt vitae impedit eum unde dignissimos.</div>
+                                        <div class="has-background-grey-lighter is-radius p-3 mt-2 ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, tempora. Aut ducimus molestias eum, architecto obcaecati voluptates velit fugiat. Ducimus expedita laborum facere voluptate, nesciunt vitae impedit eum unde dignissimos.</div>
+                                        <div class="has-background-grey-lighter is-radius p-3 mt-2 ml-5">Lorem ipsum dolor sit impedit eum unde dignissimos.</div>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <figure class="image is-48x48">
+                                        <img src="logo.jpg" alt="Image" class="is-rounded">
+                                    </figure>
+                                </div>
+                            </article>
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="logo.jpg" alt="Image" class="is-rounded">
+                                    </figure>
+                                </div>
+                                <div class="media-content ">
+                                    <div class="content">
+                                        <div>
+                                            <strong>John Smith</strong> <small class="has-text-danger">@johnsmith</small> <small>31m</small>
+                                        </div>
+                                        <div class="has-background-primary p-3 is-radius mt-2 mr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, tempora. Aut ducimus molestias eum, architecto obcaecati voluptates velit fugiat. Ducimus expedita laborum facere voluptate, nesciunt vitae impedit eum unde dignissimos.</div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <hr class="m-0 my-2">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="logo.jpg" alt="Image" class="is-rounded">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <div>
+                                    <strong>John Smith</strong> <small class="has-text-danger">@johnsmith</small>
+                                    <div class="control mt-1">
+                                        <textarea class="textarea" rows="2" placeholder="Press enter to send message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="column ml-3">
+                <div class="has-background-white is-radius p-2">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img class="is-circle" src="logo.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">John Smith</p>
+                            <p class="subtitle is-6 has-text-danger">@johnsmith</p>
+                        </div>
+                    </div>
+                    <div class="content p-3 ml-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                        <a href="#">#css</a> <a href="#">#responsive</a>
+                        <br>
+                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    </div>
+                    <aside class="menu ml-5">
+                        <p class="menu-label">
+                            General
+                        </p>
+                        <ul class="menu-list">
+                            <li>
+                                <a>
+                                    <span class="icon is-small mr-2">
+                                        <i class="fas fa-address-card has-text-grey-lighter pt-1" aria-hidden="true"></i>
+                                    </span>
+                                    <span>View Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="icon is-small mr-2">
+                                        <i class="fas fa-user-friends has-text-grey-lighter pt-1" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Friends</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="icon is-small mr-2">
+                                        <i class="fas fa-info-circle has-text-grey-lighter pt-1" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Info</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

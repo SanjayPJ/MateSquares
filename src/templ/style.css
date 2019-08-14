@@ -25,9 +25,9 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar-item {
+/*.navbar-item {
     color: #fff;
-}
+}*/
 
 .is-circle {
     border-radius: 50% !important;
@@ -47,7 +47,7 @@ body {
 
 .navbar-item:hover {
     background-color: transparent !important;
-    color: #fff !important;
+    /*color: #fff !important;*/
 }
 
 .on-hover-underline:hover {
@@ -56,4 +56,34 @@ body {
 
 .file.is-right .file-cta {
     border-radius: 20px !important;
+}
+
+.message-container {
+    max-height: 91vh;
+}
+
+.messages-container {
+    height: 91vh;
+}
+
+.chat-container {
+    height: 76%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* for vertical scrollbars */
+    height: 5px;
+    /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
